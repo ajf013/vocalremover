@@ -4,6 +4,12 @@ A premium, client-side Progressive Web App (PWA) that uses Artificial Intelligen
 
 ![Vocal Remover Preview](./public/pwa-512x512.png)
 
+## 📸 Screenshots
+
+| Dark Mode 🌑 | Light Mode ☀️ |
+|:---:|:---:|
+| ![Dark Theme](./src/assets/dark.png) | ![Light Theme](./src/assets/light.png) |
+
 ## ✨ Features
 
 -   **🤖 AI-Powered Separation**: Uses **TensorFlow.js** to perform real-time spectral masking and signal separation entirely in the browser. No server uploads required!
