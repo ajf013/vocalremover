@@ -5,7 +5,7 @@ A premium, client-side Progressive Web App (PWA) that uses Artificial Intelligen
 ## 🌐 Live Demo
 
 🔗 **Live Site:**  
-https://azuresop.netlify.app/
+https://vocalremoverreact.netlify.app/
 
 ## 📸 Screenshots
 
