@@ -1,0 +1,44 @@
+.upload-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.upload-box {
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    max-width: 500px;
+}
+
+.upload-box:hover {
+    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.upload-icon {
+    margin-bottom: 1rem !important;
+    color: var(--secondary);
+}
+
+/* Light Mode Overrides */
+.app-container.light .upload-box {
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #333;
+}
+
+.app-container.light .upload-box:hover {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}

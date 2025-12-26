@@ -1,0 +1,40 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: var(--text-dark);
+}
+
+.reset-btn {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.reset-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+
+/* Override semantic UI dimmer transparency for better look */
+.ui.dimmer {
+  background-color: rgba(0, 0, 0, 0.85);
+}

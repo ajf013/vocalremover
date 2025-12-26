@@ -1,0 +1,45 @@
+:root {
+  --bg-dark: #121212;
+  --bg-light: #f5f5f5;
+  --text-dark: #e0e0e0;
+  --text-light: #333333;
+  --primary: #bb86fc;
+  --secondary: #03dac6;
+  --transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  transition: var(--transition);
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+}
+
+.app-container.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/background-dark.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.app-container.light {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/background-light.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+button {
+  cursor: pointer;
+}
