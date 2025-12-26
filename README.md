@@ -2,7 +2,10 @@
 
 A premium, client-side Progressive Web App (PWA) that uses Artificial Intelligence to separate vocals, instruments, and chorus from any audio file. Built with React, TensorFlow.js, and modern web technologies.
 
-![Vocal Remover Preview](./public/pwa-512x512.png)
+## 🌐 Live Demo
+
+🔗 **Live Site:**  
+https://azuresop.netlify.app/
 
 ## 📸 Screenshots
 
@@ -80,3 +83,10 @@ npm run build
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## You can reach out 😊😊
+Feel free to contact me about the problems. I will try to help as much as I can 😉
+
+[![Linkedin Badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajf013-francis-cruz/)
+[![Mail Badge](https://img.shields.io/badge/email-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:furkanozbek1995@gmail.com)](mailto:cruzmma2021@gmail.com)
+[![Github Badge](https://img.shields.io/badge/github-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajf013)
